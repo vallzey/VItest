@@ -24,10 +24,10 @@ SECRET_KEY = '7t!ivf(l^mwkhucu##*+n#51ub-7evv-8e46l*ppfd9nl((aqx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # 为了安全起见，在生产环境下需要关闭 DEBUG 选项以及设置允许访问的域名。
-DEBUG = True
+DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.147.17.227']
 
 
 # Application definition
