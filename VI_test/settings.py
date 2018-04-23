@@ -24,7 +24,7 @@ SECRET_KEY = '7t!ivf(l^mwkhucu##*+n#51ub-7evv-8e46l*ppfd9nl((aqx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # 为了安全起见，在生产环境下需要关闭 DEBUG 选项以及设置允许访问的域名。
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.147.17.227']
@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'spider',
     'blog',
     'comments',
+    'homepage',
+    'sp_steam',
+    'resource_library',
+    'data_mining',
 ]
 
 MIDDLEWARE = [
@@ -91,7 +95,17 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    },
+
+    # 'default': {   #配置第二个数据库节点名称
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'spider',  #第二个数据库的名称
+    #     'USER': 'spider',
+    #     'PASSWORD': 'spider',
+    #     'HOST': '10.147.17.51',
+    #     'PORT': '3306',
+    # }
+
 }
 
 
