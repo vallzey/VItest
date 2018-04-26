@@ -92,19 +92,19 @@ WSGI_APPLICATION = 'VI_test.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    },
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # },
 
-    # 'default': {   #配置第二个数据库节点名称
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'spider',  #第二个数据库的名称
-    #     'USER': 'spider',
-    #     'PASSWORD': 'spider',
-    #     'HOST': '10.147.17.51',
-    #     'PORT': '3306',
-    # }
+    'default': {   #配置第二个数据库节点名称
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'spider',  #第二个数据库的名称
+        'USER': 'spider',
+        'PASSWORD': 'spider',
+        'HOST': '10.147.17.51',
+        'PORT': '3306',
+    }
 
 }
 

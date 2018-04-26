@@ -1,0 +1,41 @@
+﻿{% extends 'template_resource_library.html' %}
+{% block post %}
+<!-- Post -->
+    {% for post in post_list %}
+        <article class="is-post is-post-excerpt">
+            <header>
+                <h2><a href="#">{{ post.title }}</a></h2>
+                <a href="{{ post.url }}" class="byline">原网址</a>
+            </header>
+            <div class="info">
+                <span class="date"><span class="month">{{ post.created_time.month }}月</span> <span class="day">{{ post.created_time.day }}日</span><span class="year"> {{ post.created_time.year }}年</span></span>
+                <ul class="stats">
+                    <li><a href="#" class="link-icon24 link-icon24-1">{{ post.author }}</a></li>
+                    <li><a href="#" class="link-icon24 link-icon24-2">{{ post.views }}</a></li>
+                    <li><a href="#" class="link-icon24 link-icon24-3">{{ post.category }}</a></li>
+                    <li><a href="#" class="link-icon24 link-icon24-5">{{ post.origin }}</a></li>
+                </ul>
+            </div>
+            <p>
+                {{ post.excerpt }}
+            </p>
+        </article>
+    {% endfor %}
+{% endblock %}
+{% block pages %}
+<!-- Pager -->
+    <div class="pager">
+        <!--<a href="#" class="button previous">Previous Page</a>-->
+        <div class="pages">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <span>&hellip;</span>
+            <a href="#">20</a>
+        </div>
+        <a href="#" class="button next">Next Page</a>
+    </div>
+{% endblock %}
+
+

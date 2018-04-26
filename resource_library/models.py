@@ -10,48 +10,63 @@ from django.utils.html import strip_tags
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Author(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
+
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+        author = Author.objects.filter(name=self.name)
+        if len(author) > 0:
+            return author[0]
+        else:
+            return super(Author, self).save()
+
+
+class Origin(models.Model):
+    name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):
         return self.name
 
 
 class Tag(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):
         return self.name
 
 
 class Post(models.Model):
+    #标题
     title = models.CharField(max_length=70)
-    created_time = models.DateTimeField()
-    modified_time = models.DateTimeField()
-    excerpt = models.CharField(max_length=200, blank=True)
-    category = models.ForeignKey(Category,on_delete=models.CASCADE)
+    # 创建时间,创建的时候自动获取
+    created_time = models.DateTimeField(auto_now=True)
+    #作者
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, null=True)
+    #分类
+    category = models.ForeignKey(Category, on_delete=models.CASCADE,null=True)
+    #标签
     tags = models.ManyToManyField(Tag, blank=True)
-    # author = models.ForeignKey(User, on_delete=models.CASCADE)
+    #摘要
+    excerpt = models.CharField(max_length=200, blank=True)
+    #主体
     body = models.TextField(null=True)
+    #原网址
+    url = models.CharField(max_length=200, blank=True)
+    #来源网站
+    origin = models.ForeignKey(Origin, on_delete=models.CASCADE, null=True)
     # 该类型的值只允许为正整数或 0
     views = models.PositiveIntegerField(default=0)
-    source = models
-
-    # 重写save方法
-    def save(self, *args, **kwargs):
-        # 如果没有填写摘要
-        if not self.excerpt:
-            # 首先实例化一个 Markdown 类，用于渲染 body 的文本
-            md = markdown.Markdown(extensions=[
-                'markdown.extensions.extra',
-                'markdown.extensions.codehilite',
-            ])
-            # 先将 Markdown 文本渲染成 HTML 文本
-            # strip_tags 去掉 HTML 文本的全部 HTML 标签
-            # 从文本摘取前 54 个字符赋给 excerpt
-            self.excerpt = strip_tags(md.convert(self.body))[:54]
-
-        # 调用父类的 save 方法将数据保存到数据库中
-        super(Post, self).save(*args, **kwargs)
+    # source = models
 
     def __str__(self):
         return self.title
