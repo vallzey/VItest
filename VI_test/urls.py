@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 urlpatterns = [
+    path(r'temp/', include('temp.urls')),
     path(r'', include('homepage.urls')),
     path('admin/', admin.site.urls),
     # 这里是做一个拼接 r''表示原生字符串

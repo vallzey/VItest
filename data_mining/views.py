@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "dara_mining_templates.html")
+    return render(request, "data_mining_templates.html")

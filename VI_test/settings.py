@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'sp_steam',
     'resource_library',
     'data_mining',
+    'temp',
 ]
 
 MIDDLEWARE = [
