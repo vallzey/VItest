@@ -1,4 +1,3 @@
-{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +10,12 @@
     <link rel="shortcut icon" href="img/favicon.png">
     <title>CoreUI Pro - Bootstrap 4 Admin Template</title>
 
-    <link href="{% static 'temp/' %}css/flag-icon.min.css" rel="stylesheet">
-    <link href="{% static 'temp/' %}css/font-awesome.min.css" rel="stylesheet">
-    <link href="{% static 'temp/' %}css/simple-line-icons.min.css" rel="stylesheet">
+    <link href="vendors/css/flag-icon.min.css" rel="stylesheet">
+    <link href="vendors/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendors/css/simple-line-icons.min.css" rel="stylesheet">
 
-    <link href="{% static 'temp/' %}css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-    <link href="{% static 'temp/' %}css/daterangepicker.min.css" rel="stylesheet">
-    <link href="{% static 'temp/' %}css/gauge.min.css" rel="stylesheet">
-    <link href="{% static 'temp/' %}css/toastr.min.css" rel="stylesheet">
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -396,7 +392,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a id="Charts" class="nav-link" href="{% url 'data_mining:index' %}"><i class="icon-pie-chart"></i> Charts</a>
+                    <a class="nav-link" href="charts.html"><i class="icon-pie-chart"></i> Charts</a>
                 </li>
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link nav-dropdown-toggle" href="#"><i class="fa fa-code"></i> Editors</a>
@@ -606,13 +602,119 @@
         <button class="sidebar-minimizer brand-minimizer" type="button"></button>
     </div>
 
-    <main id="main" class="main">
+    <main class="main">
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item"><a href="#">Admin</a></li>
+            <li class="breadcrumb-item active">Dashboard</li>
+
+            <li class="breadcrumb-menu d-md-down-none">
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <a class="btn" href="#"><i class="icon-speech"></i></a>
+                    <a class="btn" href="index.html"><i class="icon-graph"></i> &nbsp;Dashboard</a>
+                    <a class="btn" href="#"><i class="icon-settings"></i> &nbsp;Settings</a>
+                </div>
+            </li>
+        </ol>
+        <div class="container-fluid">
+            <div class="animated fadeIn">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="icon-drop"></i> Theme colors
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-primary">Primary</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-secondary">Secondary</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-success">Success</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-danger">Danger</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-warning">Warning</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-info">Info</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-light">Light</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-dark">Dark</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="icon-drop"></i> Grays
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="p-3 bg-gray-100">100</div>
+                                <div class="p-3 bg-gray-200">200</div>
+                                <div class="p-3 bg-gray-300">300</div>
+                                <div class="p-3 bg-gray-400">400</div>
+                                <div class="p-3 bg-gray-500">500</div>
+                                <div class="p-3 bg-gray-600">600</div>
+                                <div class="p-3 bg-gray-700">700</div>
+                                <div class="p-3 bg-gray-800">800</div>
+                                <div class="p-3 bg-gray-900">900</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="icon-drop"></i> Additional colors
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-blue">Blue</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-indigo">Indigo</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-purple">Purple</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-pink">Pink</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-red">Red</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-orange">Orange</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-yellow">Yellow</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-green">Green</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-teal">Teal</div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 mb-3 bg-cyan">Cyan</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
-
-    {#    {% block main %}#}
-    {#显示主要的内容#}
-    {#    {% endblock %}#}
     <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
@@ -904,29 +1006,13 @@
     <span class="ml-auto">Powered by <a href="../../../pro/index.html">CoreUI Pro</a></span>
 </footer>
 
-<script src="{% static 'temp/' %}js/jquery.min.js"></script>
-<script src="{% static 'temp/' %}js/popper.min.js"></script>
-<script src="{% static 'temp/' %}js/bootstrap.min.js"></script>
-<script src="{% static 'temp/' %}js/pace.min.js"></script>
+<script src="vendors/js/jquery.min.js"></script>
+<script src="vendors/js/popper.min.js"></script>
+<script src="vendors/js/bootstrap.min.js"></script>
+<script src="vendors/js/pace.min.js"></script>
 
-<script src="{% static 'temp/' %}js/Chart.min.js"></script>
+<script src="vendors/js/Chart.min.js"></script>
 
-<script src="{% static 'temp/' %}js/app.js"></script>
-
-<script src="{% static 'temp/' %}js/toastr.min.js"></script>
-<script src="{% static 'temp/' %}js/gauge.min.js"></script>
-<script src="{% static 'temp/' %}js/moment.min.js"></script>
-<script src="{% static 'temp/' %}js/daterangepicker.min.js"></script>
-{#<script src="{% static 'temp/myjs/ajax.js' %}"></script>#}
-<script type="text/javascript">
-    $('#Charts').click(function(){
-    htmlobj=$.ajax({
-    });
-    $("#main").html(htmlobj);
-  });
-</script>
-{#<script src="{% static 'temp/js/view/main.js' %}"></script>#}
-
-
+<script src="js/app.js"></script>
 </body>
 </html>
