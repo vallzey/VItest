@@ -320,7 +320,7 @@
                     Theme
                 </li>
                 <li class="nav-item">
-                    <a href="colors.html" class="nav-link"><i class="icon-drop"></i> Colors</a>
+                    <a href="{% url 'temp:color' %}" class="nav-link" onclick="return false"><i class="icon-drop"></i> Colors</a>
                 </li>
                 <li class="nav-item">
                     <a href="typography.html" class="nav-link"><i class="icon-pencil"></i> Typograhy</a>
@@ -493,7 +493,7 @@
                             <a class="nav-link" href="tables-tables.html"><i class="icon-list"></i> Standard Tables</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tables-datatables.html"><i class="icon-list"></i> DataTables</a>
+                            <a class="nav-link" href="{% url 'temp:tables_datatables' %}" onclick="return false"><i class="icon-list"></i> DataTables</a>
                         </li>
                     </ul>
                 </li>
@@ -607,8 +607,11 @@
     </div>
 
     <main id="main" class="main">
-
+        <iframe id='iframe' src="{% url 'homepage:home_index' %}" width='100%' height='100%' frameborder='0'></iframe>
     </main>
+{#    <main id="main" class="main">#}
+{##}
+{#    </main>#}
 
     {#    {% block main %}#}
     {#显示主要的内容#}
@@ -919,14 +922,13 @@
 <script src="{% static 'temp/' %}js/daterangepicker.min.js"></script>
 {#<script src="{% static 'temp/myjs/ajax.js' %}"></script>#}
 <script type="text/javascript">
-    $('#Charts').click(function(){
-    htmlobj=$.ajax({
+    $('.nav-link').click(function() {
+        $("#iframe").attr('src', $(this).attr("href"));
     });
-    $("#main").html(htmlobj);
-  });
+
 </script>
 {#<script src="{% static 'temp/js/view/main.js' %}"></script>#}
 
-
+{#{% url 'temp:color' %}#}
 </body>
 </html>

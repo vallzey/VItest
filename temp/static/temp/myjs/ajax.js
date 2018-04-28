@@ -1,4 +1,3 @@
-// $('#Charts').click(function(){
-//     htmlobj=$.ajax({url:"../../../templates/temp/data_mining_index.html"});
-//     $("#main").html(htmlobj);
-//   });
+$('.nav-link').click(function() {
+        $("#iframe").attr('src', $(this).attr("href"));
+    });

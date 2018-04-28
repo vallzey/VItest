@@ -2,6 +2,10 @@ from blog.models import Post,Category
 from django.shortcuts import render, get_object_or_404
 
 
+def login(request):
+    return render(request, 'homepage/main.html')
+
+
 def index(request):
     return render(request, 'homepage/home_index.html')
 

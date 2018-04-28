@@ -5,4 +5,4 @@ from django.http import JsonResponse
 
 
 def index(request):
-    render(request,'data_mining/data_mining_index.html')
+    render(request, 'data_mining_templates.html')
