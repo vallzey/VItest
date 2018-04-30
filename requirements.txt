@@ -28,6 +28,7 @@ queuelib==1.4.2
 Scrapy==1.5.0
 scrapy-djangoitem==1.1.1
 scrapyd==1.2.0
+scrapyd-client==1.1.0
 selenium==3.11.0
 service-identity==17.0.0
 six==1.11.0

@@ -1,0 +1,86 @@
+{% extends 'main_templates.html' %}
+{% block main %}
+    <main class="main">
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item"><a href="#">Admin</a></li>
+            <li class="breadcrumb-item active">Dashboard</li>
+
+            <li class="breadcrumb-menu d-md-down-none">
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <a class="btn" href="#"><i class="icon-speech"></i></a>
+                    <a class="btn" href="index.html"><i class="icon-graph"></i> &nbsp;Dashboard</a>
+                    <a class="btn" href="#"><i class="icon-settings"></i> &nbsp;Settings</a>
+                </div>
+            </li>
+        </ol>
+        <div class="container-fluid">
+            <div class="animated fadeIn">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-edit"></i> DataTables
+                        <div class="card-actions">
+                            <a href="https://datatables.net">
+                                <small class="text-muted">docs</small>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        {#                     table-bordered去除边框#}
+                        <table class="table table-striped datatable">
+                            <thead>
+                            <tr>
+                                <th>Spidername</th>
+                                <th>Type</th>
+                                <th>Last time</th>
+                                <th>data amount</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                                <th>Switch</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for spider in spider_list %}
+                                <tr>
+                                    <td>{{ spider.name }}</td>
+                                    <td>{{ spider.type }}</td>
+                                    <td>{{ spider.last_run_time }}</td>
+                                    <td>{{ spider.data_amount }}</td>
+                                    <td>
+                                        <span class="badge badge-success">{{ spider.status }}</span>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-success" href="#">
+                                            <i class="fa fa-search-plus "></i>
+                                        </a>
+                                        <a class="btn btn-info" href="#">
+                                            <i class="fa fa-edit "></i>
+                                        </a>
+                                        <a class="btn btn-danger" href="#">
+                                            <i class="fa fa-trash-o "></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <label class="switch switch-default switch-pill switch-primary-outline-alt">
+                                            <input class="switch-input"  type="checkbox">
+                                            <span class="switch-label"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+{% endblock %}
+
+
+

@@ -1,0 +1,14 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+steam/__init__.py
+steam/handle.py
+steam/items.py
+steam/middlewares.py
+steam/pipelines.py
+steam/settings.py
+steam/spiders/__init__.py
+steam/spiders/steampowered.py

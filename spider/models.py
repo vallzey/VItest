@@ -13,6 +13,20 @@ class Tag(models.Model):
         return self.name
 
 
+class Type(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+
+class Status(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+
 class Spider(models.Model):
     """
     Django 要求模型必须继承 models.Model 类。
@@ -24,7 +38,10 @@ class Spider(models.Model):
     https://docs.djangoproject.com/en/1.10/ref/models/fields/#field-types
     """
     name = models.CharField(max_length=100)
-    description = models.CharField(max_length=255)
+    type = models.ForeignKey(Type, on_delete=models.CASCADE, null=True)
+    last_run_time = models.DateTimeField(null=True)
+    status = models.ForeignKey(Status, on_delete=models.CASCADE, null=True)
+    description = models.CharField(max_length=255, null=True)
     data_amount = models.IntegerField()
     tags = models.ManyToManyField(Tag, blank=True)
 
