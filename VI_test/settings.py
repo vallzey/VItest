@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'blog',
     'comments',
     'homepage',
-    'sp_steam',
+    'spider_instences',
     'resource_library',
     'data_mining',
     'temp',

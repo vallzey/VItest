@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # 这里是做一个拼接 r''表示原生字符串
     path(r'blog/', include('blog.urls')),
-    path(r'comment/', include('comments.urls')),
+    # path(r'comment/', include('tmp.comments.urls')),
     path(r'spider/', include('spider.urls')),
     path(r'data_mining/', include('data_mining.urls')),
     path(r'resource/', include('resource_library.urls')),

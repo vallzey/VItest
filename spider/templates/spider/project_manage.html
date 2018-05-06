@@ -1,0 +1,51 @@
+{% extends "spider/base.html" %}
+{% block content_header %}
+    <h1>Project Manage</h1>
+{% endblock %}
+{% block content_body %}
+    {#{% with messages = get_flashed_messages %}#}
+    {#{% if messages %}#}
+    {#<div class="callout callout-warning">#}
+    {#    <ul>#}
+    {#        {% for message in messages %}#}
+    {#        <li><h4>{{ message }}</h4></li>#}
+    {#        {% endfor %}#}
+    {#    </ul>#}
+    {#</div>#}
+    {#{% endif %}#}
+    {#{% endwith %}#}
+    <div class="box">
+        <table class="table table-hover">
+            <tr>
+                <td><h4 class="box-title">Projects</h4></td>
+                <td><h4 class="box-title">Projects</h4></td>
+                <td><h4 class="box-title">Choose</h4></td>
+                <td><h4 class="box-title">Delete</h4></td>
+            </tr>
+            <tbody>
+            {% if data == None %}
+                连接不上服务器
+            {% endif %}
+            {% if data.status == 'ok' %}
+                {% for datum in data.projects %}
+                    <tr>
+                        <td><h4 class="box-title">*</h4></td>
+                        <td><h4 class="box-title">{{ datum }}</h4></td>
+                        <td>
+                            <h4 class="box-title">
+                                <a type="button" class="btn btn-success">Choose</a>
+                            </h4>
+                        </td>
+                        <td>
+                            <h4 class="box-title">
+                                <a type="button" class="btn btn-danger">Delete</a>
+                            </h4>
+                        </td>
+                    </tr>
+
+                {% endfor %}
+            {% endif %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

@@ -2,47 +2,708 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a618a0-3ad2-4074-b0a9-4b4b4c53704f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/dbs/steam.db" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524938454.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524965277.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524965716.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524968042.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524968113.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524968274.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/eggs/steam/1524973718.egg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapyd/logs/steam/steampowered/cd6332d24b5311e885458c85902808db.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/migrations/0006_auto_20180428_1632.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/templates/spider/spider_list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/temp/static/temp/css/dataTables.bootstrap4.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/temp/static/temp/js/dataTables.bootstrap4.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/temp/static/temp/js/jquery.dataTables.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/temp/static/temp/js/view/datatables.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/handle.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/items.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/middlewares.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/pipelines.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/settings.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/spiders/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/build/lib/steam/spiders/steampowered.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/project.egg-info/PKG-INFO" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/project.egg-info/SOURCES.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/project.egg-info/dependency_links.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/project.egg-info/entry_points.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/project.egg-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/worms/steam/setup.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/VI_test/settings.py" afterPath="$PROJECT_DIR$/VI_test/settings.py" />
+      <change beforePath="$PROJECT_DIR$/VI_test/urls.py" afterPath="$PROJECT_DIR$/VI_test/urls.py" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change beforePath="$PROJECT_DIR$/comments/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/apps.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/comments/views.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/homepage/templates/homepage/main.html" afterPath="$PROJECT_DIR$/homepage/templates/homepage/main.html" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/dbs/steam.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524938454.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524965277.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524965716.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524968042.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524968113.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524968274.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/eggs/steam/1524973718.egg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapyd/logs/steam/steampowered/cd6332d24b5311e885458c85902808db.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/apps.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sp_steam/views.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/spider/admin.py" afterPath="$PROJECT_DIR$/spider/admin.py" />
-      <change beforePath="$PROJECT_DIR$/spider/models.py" afterPath="$PROJECT_DIR$/spider/models.py" />
+      <change beforePath="$PROJECT_DIR$/spider/models.py" afterPath="$PROJECT_DIR$/spider/tmp_models.py" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/css/ie8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/css/ie9.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/css/images/intro.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/ie/html5shiv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/ie/respond.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/jquery.scrollex.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/jquery.scrolly.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/skel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/js/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/base/_page.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/base/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_box.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_button.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_features.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_icon.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_image.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_section.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_split.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_spotlights.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_table.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/components/_wrapper.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/ie8.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/ie9.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/layout/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/layout/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/layout/_intro.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/layout/_sidebar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/layout/_wrapper.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/libs/_functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/libs/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/libs/_skel.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/libs/_vars.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/assets/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/custom.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/autumn.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/borland.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/bw.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/colorful.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/emacs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/friendly.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/fruity.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/github.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/manni.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/monokai.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/murphy.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/native.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/pastie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/perldoc.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/tango.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/trac.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/vim.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/vs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/highlights/zenburn.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/css/pace.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/images/pic01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/images/pic02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/images/pic03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/images/pic04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/images/pic05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/images/pic06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/img/me.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/js/jquery-2.1.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/js/modernizr.custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/js/pace.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/static/spider/js/script.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/spider/urls.py" afterPath="$PROJECT_DIR$/spider/urls.py" />
       <change beforePath="$PROJECT_DIR$/spider/views.py" afterPath="$PROJECT_DIR$/spider/views.py" />
-      <change beforePath="$PROJECT_DIR$/temp/static/temp/data_mining_index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/temp/static/temp/myjs/ajax.js" afterPath="$PROJECT_DIR$/temp/static/temp/myjs/ajax.js" />
-      <change beforePath="$PROJECT_DIR$/temp/templates/main_templates.html" afterPath="$PROJECT_DIR$/temp/templates/main_templates.html" />
-      <change beforePath="$PROJECT_DIR$/worms/steam/scrapy.cfg" afterPath="$PROJECT_DIR$/worms/steam/scrapy.cfg" />
-      <change beforePath="$PROJECT_DIR$/worms/steam/steam/__init__.py" afterPath="$PROJECT_DIR$/worms/steam/steam/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/static/css/daterangepicker.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/flag-icon.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/gauge.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/simple-line-icons.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/toastr.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ad.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ae.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/af.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ag.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ai.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/al.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/am.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ao.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/aq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ar.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/as.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/at.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/au.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/aw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ax.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/az.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ba.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/be.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/br.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bs.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/by.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/bz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ca.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ch.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ci.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ck.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/co.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cx.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/cz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/de.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/dj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/dk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/dm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/do.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/dz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ec.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ee.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/eg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/eh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/er.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/es-ct.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/es.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/et.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/eu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/fi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/fj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/fk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/fm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/fo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/fr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ga.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gb-eng.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gb-nir.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gb-sct.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gb-wls.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ge.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gs.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/gy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/hk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/hm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/hn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/hr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ht.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/hu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/id.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ie.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/il.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/im.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/in.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/io.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/iq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ir.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/is.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/it.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/je.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/jm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/jo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/jp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ke.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ki.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/km.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ky.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/kz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/la.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/li.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ls.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/lv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ly.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ma.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/md.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/me.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ml.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ms.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mx.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/my.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/mz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/na.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/nc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ne.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/nf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ng.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ni.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/nl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/no.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/np.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/nr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/nu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/nz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/om.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pa.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pe.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ph.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ps.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/pw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/py.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/qa.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/re.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ro.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/rs.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ru.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/rw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sa.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/se.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/si.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/so.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ss.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/st.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sx.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/sz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/td.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/th.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/to.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/tz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ua.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ug.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/um.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/un.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/us.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/uy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/uz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/va.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/vc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ve.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/vg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/vi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/vn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/vu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/wf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ws.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/ye.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/yt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/za.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/zm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/1x1/zw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ad.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ae.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/af.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ag.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ai.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/al.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/am.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ao.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/aq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ar.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/as.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/at.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/au.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/aw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ax.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/az.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ba.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/be.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/br.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bs.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/by.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/bz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ca.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ch.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ci.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ck.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/co.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cx.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/cz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/de.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/dj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/dk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/dm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/do.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/dz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ec.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ee.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/eg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/eh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/er.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/es-ct.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/es.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/et.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/eu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/fi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/fj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/fk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/fm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/fo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/fr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ga.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gb-eng.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gb-nir.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gb-sct.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gb-wls.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ge.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gs.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/gy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/hk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/hm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/hn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/hr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ht.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/hu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/id.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ie.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/il.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/im.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/in.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/io.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/iq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ir.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/is.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/it.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/je.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/jm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/jo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/jp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ke.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ki.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/km.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ky.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/kz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/la.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/li.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ls.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/lv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ly.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ma.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/md.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/me.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ml.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mo.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mp.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mq.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ms.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mx.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/my.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/mz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/na.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/nc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ne.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/nf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ng.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ni.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/nl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/no.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/np.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/nr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/nu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/nz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/om.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pa.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pe.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ph.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ps.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/pw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/py.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/qa.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/re.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ro.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/rs.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ru.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/rw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sa.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sb.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sd.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/se.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sh.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/si.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/so.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ss.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/st.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sx.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/sz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/td.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/th.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tj.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tk.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tl.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/to.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tr.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tv.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/tz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ua.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ug.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/um.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/un.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/us.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/uy.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/uz.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/va.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/vc.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ve.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/vg.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/vi.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/vn.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/vu.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/wf.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ws.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/ye.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/yt.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/za.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/zm.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/flags/4x3/zw.svg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons-v=2.4.0.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons-v=2.4.0.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons-v=2.4.0.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons-v=2.4.0.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/Simple-Line-Icons-v=2.4.0.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont-.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont-v=4.7.0.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont-v=4.7.0.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont-v=4.7.0.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont-v=4.7.0.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont-v=4.7.0.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatars/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/flags/Brazil.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/flags/France.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/flags/India.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/flags/Poland.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/flags/Spain.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/flags/USA.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-symbol.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/Chart.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/daterangepicker.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/gauge.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/moment.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/pace.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/popper.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/toastr.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/view/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/mycss/mystyle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/myjs/ajax.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/handle.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/items.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/middlewares.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/pipelines.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/settings.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/spiders/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/build/lib/steam/spiders/steampowered.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/dbs/default.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/project.egg-info/PKG-INFO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/project.egg-info/SOURCES.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/project.egg-info/dependency_links.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/project.egg-info/entry_points.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/project.egg-info/top_level.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/scrapy.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/setup.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/handle.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/items.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/middlewares.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/pipelines.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/settings.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/spiders/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/worms/steam/steam/spiders/steampowered.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,62 +714,120 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/VI_test$Twisted_Trial_in_test_explorer_py.coverage" NAME="Twisted Trial in test_explorer.py Coverage Results" MODIFIED="1524671460385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_library/resource_spider/test" />
+    <SUITE FILE_PATH="coverage/VI_test$test.coverage" NAME="test Coverage Results" MODIFIED="1525238368894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/test" />
     <SUITE FILE_PATH="coverage/VI_test$csdn.coverage" NAME="csdn Coverage Results" MODIFIED="1524626258974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_library/resource_spider/simple" />
     <SUITE FILE_PATH="coverage/VI_test$Twisted_Trial_in_test_selenium_py.coverage" NAME="Twisted Trial in test_selenium.py Coverage Results" MODIFIED="1524405010108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_library/resource_spider" />
     <SUITE FILE_PATH="coverage/VI_test$csdn_explorer.coverage" NAME="csdn_explorer Coverage Results" MODIFIED="1524640313560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource_library/resource_spider/simple" />
+    <SUITE FILE_PATH="coverage/VI_test$Twisted_Trial_in_test_manage_spider_py.coverage" NAME="Twisted Trial in test_manage_spider.py Coverage Results" MODIFIED="1525229543832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main_templates.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp/templates/main_templates.html">
+      <file leaf-file-name="test_manage_spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/test_manage_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spider_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/templates/spider/spider_list.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="65" column="72" lean-forward="false" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="195">
+              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worms/steam/scrapy.cfg">
+      <file leaf-file-name="tmp_models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/tmp_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VI_test/settings.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/templates/spider/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project_manage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/templates/spider/project_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapyd_request.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/scrapyd/scrapyd_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/scrapyd/http.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/test/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -119,19 +838,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sprites</find>
-      <find>con</find>
-      <find>connect</find>
-      <find>stats</find>
       <find>is-post</find>
       <find>inline</find>
       <find>after</find>
@@ -158,6 +873,10 @@
       <find>dashboard</find>
       <find>class=&quot;nav-link&quot;</find>
       <find>tables</find>
+      <find>apscheduler</find>
+      <find>scheduler</find>
+      <find>get_flashed_messages</find>
+      <find>Manage</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/temp/templates</dir>
@@ -170,31 +889,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/method/simple/csdn_explorer.py" />
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/origin/save.py" />
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/origin/__init__.py" />
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/__init__.py" />
-        <option value="$PROJECT_DIR$/resource_library/__init__.py" />
-        <option value="$PROJECT_DIR$/resource_library/models.py" />
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/resource_explorer.py" />
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/origin/csdn.py" />
-        <option value="$PROJECT_DIR$/resource_library/static/resource_library/css/5grid/mobileUI-flat.css" />
-        <option value="$PROJECT_DIR$/resource_library/static/resource_library/css/style.css" />
-        <option value="$PROJECT_DIR$/resource_library/static/resource_library/css/style-1200px.css" />
-        <option value="$PROJECT_DIR$/resource_library/resource_spider/test/test_explorer.py" />
-        <option value="$PROJECT_DIR$/resource_library/templates/resource_library/resource_index.html" />
-        <option value="$PROJECT_DIR$/data_mining/templates/dara_mining_templates.html" />
-        <option value="$PROJECT_DIR$/VI_test/urls.py" />
-        <option value="$PROJECT_DIR$/temp/templates/temp/base-breadcrumb.html" />
-        <option value="$PROJECT_DIR$/temp/templates/temp/base-cards.html" />
-        <option value="$PROJECT_DIR$/data_mining/templates/data_mining/charts.html" />
-        <option value="$PROJECT_DIR$/temp/templates/temp/charts.html" />
-        <option value="$PROJECT_DIR$/data_mining/templates/data_mining/data_mining_index.html" />
-        <option value="$PROJECT_DIR$/temp/templates/temp/index.html" />
-        <option value="$PROJECT_DIR$/temp/static/temp/ff" />
-        <option value="$PROJECT_DIR$/data_mining/urls.py" />
-        <option value="$PROJECT_DIR$/data_mining/views.py" />
-        <option value="$PROJECT_DIR$/temp/static/temp/mycss/style.css" />
         <option value="$PROJECT_DIR$/temp/static/temp/css/style.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/homepage/views.py" />
@@ -210,17 +904,42 @@
         <option value="$PROJECT_DIR$/temp/static/temp/js/view/datatables.js" />
         <option value="$PROJECT_DIR$/temp/templates/main_templates.html" />
         <option value="$PROJECT_DIR$/homepage/templates/homepage/frame.html" />
-        <option value="$PROJECT_DIR$/spider/urls.py" />
-        <option value="$PROJECT_DIR$/homepage/templates/homepage/main.html" />
         <option value="$PROJECT_DIR$/spider/admin.py" />
-        <option value="$PROJECT_DIR$/spider/models.py" />
-        <option value="$PROJECT_DIR$/spider/views.py" />
         <option value="$PROJECT_DIR$/spider/templates/spider/spider_list.html" />
         <option value="$PROJECT_DIR$/temp/static/temp/myjs/ajax.js" />
         <option value="$PROJECT_DIR$/worms/steam/steam/__init__.py" />
         <option value="$PROJECT_DIR$/worms/steam/setup.py" />
         <option value="$PROJECT_DIR$/worms/steam/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/homepage/templates/homepage/main.html" />
+        <option value="$PROJECT_DIR$/spider/templates/spider/job_dashboard.html" />
+        <option value="$PROJECT_DIR$/spider/spider/model.py" />
+        <option value="$PROJECT_DIR$/worms/steam/steam/models.py" />
+        <option value="$PROJECT_DIR$/worms/steam/steam/items.py" />
+        <option value="$PROJECT_DIR$/spider/__init__.py" />
+        <option value="$PROJECT_DIR$/spider/spider/controller.py" />
+        <option value="$PROJECT_DIR$/spider/proxy/contrib/scrapy.py" />
+        <option value="$PROJECT_DIR$/spider/proxy/spiderctrl.py" />
+        <option value="$PROJECT_DIR$/spider/models.py" />
+        <option value="$PROJECT_DIR$/sp_steam/models.py" />
+        <option value="$PROJECT_DIR$/spider_instences/models.py" />
+        <option value="$PROJECT_DIR$/spider_instences/worms/steam/steam/models.py" />
+        <option value="$PROJECT_DIR$/spider_instences/worms/steam/steam/spiders/steampowered.py" />
+        <option value="$PROJECT_DIR$/spider_instences/worms/steam/steam/items.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/VI_test/urls.py" />
         <option value="$PROJECT_DIR$/VI_test/settings.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/spider/schedulers/common.py" />
+        <option value="$PROJECT_DIR$/spider/util/scrapyd_request.py" />
+        <option value="$PROJECT_DIR$/spider/scrapyd/__init__.py" />
+        <option value="$PROJECT_DIR$/tmp/test_manage_spider.py" />
+        <option value="$PROJECT_DIR$/spider/scrapyd/http.py" />
+        <option value="$PROJECT_DIR$/spider/scrapyd/scrapyd_request.py" />
+        <option value="$PROJECT_DIR$/spider/test/test.py" />
+        <option value="$PROJECT_DIR$/spider/views.py" />
+        <option value="$PROJECT_DIR$/spider/urls.py" />
+        <option value="$PROJECT_DIR$/spider/templates/spider/base.html" />
+        <option value="$PROJECT_DIR$/spider/templates/spider/project_manage.html" />
       </list>
     </option>
   </component>
@@ -252,7 +971,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,20 +978,16 @@
               <item name="VI_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="VI_test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VI_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_test" type="462c0819:PsiDirectoryNode" />
-              <item name="VI_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -281,18 +995,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/worms/steam" />
-      <recent name="$PROJECT_DIR$/temp/static/temp/css" />
-      <recent name="$PROJECT_DIR$/temp/static/temp/js" />
-      <recent name="$PROJECT_DIR$/temp/static/temp/js/view" />
-      <recent name="$PROJECT_DIR$/temp/templates/temp" />
+      <recent name="$PROJECT_DIR$/spider/scrapyd" />
+      <recent name="$PROJECT_DIR$/spider_instences" />
+      <recent name="$PROJECT_DIR$/spider" />
+      <recent name="$PROJECT_DIR$/spider/templates/spider" />
+      <recent name="$PROJECT_DIR$/spider/static/spider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spider/scrapyd" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/temp/static/temp/js/view" />
       <recent name="$PROJECT_DIR$/temp/templates/temp" />
-      <recent name="$PROJECT_DIR$/temp/templates" />
-      <recent name="$PROJECT_DIR$/resource_library/resource_spider/origin" />
-      <recent name="$PROJECT_DIR$/resource_library/resource_spider/method" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,7 +1021,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Twisted Trial in test_explorer.py">
+  <component name="RunManager" selected="Python.test">
     <configuration name="csdn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,6 +1055,25 @@
       <module name="VI_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resource_library/resource_spider/simple/csdn_explorer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VI_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,34 +1117,36 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/resource_library/resource_spider/test/test_explorer.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Twisted Trial in test_selenium.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+    <configuration name="Twisted Trial in test_manage_spider.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resource_library/resource_spider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tmp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="VI_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/resource_library/resource_spider/test/test_selenium.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tmp/test_manage_spider.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.VI_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_selenium.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.csdn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.csdn_explorer" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_explorer.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.csdn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.csdn_explorer" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_explorer.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_manage_spider.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_explorer.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.csdn_explorer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.csdn" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_selenium.py" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_manage_spider.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial in test_explorer.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.csdn_explorer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.csdn" />
       </list>
     </recent_temporary>
   </component>
@@ -432,35 +1167,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 17h 22m 35s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.04.30 at 15h 51m 55s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 17h 23m 33s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.04.30 at 15h 52m 05s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 18h 19m 20s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.04.30 at 16h 32m 56s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 18h 20m 53s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.04.30 at 16h 33m 51s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 18h 21m 17s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.04.30 at 16h 40m 21s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 18h 24m 04s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.05.01 at 22h 05m 22s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 18h 27m 09s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.05.01 at 22h 06m 24s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 20h 57m 00s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.05.01 at 22h 24m 32s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 20h 58m 11s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.05.02 at 01h 02m 49s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Twisted_Trial_in_test_explorer_py - 2018.04.25 at 23h 51m 02s.xml">
-      <configuration name="Twisted Trial in test_explorer.py" configurationId="tests" />
+    <history-entry file="Twisted_Trial_in_test_manage_spider_py - 2018.05.02 at 10h 52m 25s.xml">
+      <configuration name="Twisted Trial in test_manage_spider.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -474,26 +1209,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24564995" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25793245" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2899878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24564995" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2973138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -505,439 +1241,345 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homepage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/templates/temp/colors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/templates/temp/data_mining_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="112" column="14" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="112" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="7" column="290547" lean-forward="false" selection-start-line="7" selection-start-column="290547" selection-end-line="7" selection-end-column="290547" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/toastr.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/simple-line-icons.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="0" column="188" lean-forward="false" selection-start-line="0" selection-start-column="183" selection-end-line="0" selection-end-column="188" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/gauge.min.css">
+    <entry file="file://$PROJECT_DIR$/spider/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="3" column="1781" lean-forward="false" selection-start-line="3" selection-start-column="1781" selection-end-line="3" selection-end-column="1781" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/flag-icon.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="0" column="37253" lean-forward="false" selection-start-line="0" selection-start-column="37248" selection-end-line="0" selection-end-column="37253" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/daterangepicker.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="579" lean-forward="false" selection-start-line="0" selection-start-column="579" selection-end-line="0" selection-end-column="579" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/js/view/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="182" column="15" lean-forward="true" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/js/view/datatables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/js/dataTables.bootstrap4.min.js">
+    <entry file="file://$PROJECT_DIR$/worms/steam/steam/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/spider/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/js/jquery.dataTables.min.js">
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="158">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/css/dataTables.bootstrap4.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/templates/spider/spider_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/templates/temp_templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="322" column="46" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="933" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/frame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="111" column="52" lean-forward="true" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage_templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="321" column="80" lean-forward="false" selection-start-line="321" selection-start-column="80" selection-end-line="321" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/home_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/worms/steam/steam/items.py" />
     <entry file="file://$PROJECT_DIR$/resource_library/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="51" column="53" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/views.py">
+    <entry file="file://$PROJECT_DIR$/sp_steam/views.py" />
+    <entry file="file://$PROJECT_DIR$/sp_steam/tests.py" />
+    <entry file="file://$PROJECT_DIR$/sp_steam/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/worms/steam/steam/spiders/steampowered.py" />
+    <entry file="file://$PROJECT_DIR$/sp_steam/models.py" />
+    <entry file="file://$PROJECT_DIR$/spider_instences/worms/steam/setup.py" />
+    <entry file="file://$PROJECT_DIR$/spider_instences/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/templates/temp/tables-datatables.html">
+    <entry file="file://$PROJECT_DIR$/spider_instences/worms/steam/steam/spiders/steampowered.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="640" column="54" lean-forward="false" selection-start-line="640" selection-start-column="54" selection-end-line="640" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/static/temp/myjs/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/twistd.pid">
+    <entry file="file://$PROJECT_DIR$/spider_instences/worms/steam/steam/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/scrapyd-deploy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3773">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/comments/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#194#203#0" expanded="false" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource_library/views.py">
+    <entry file="file://$PROJECT_DIR$/spider_instences/worms/steam/steam/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/templates/spider/spider_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="65" column="72" lean-forward="false" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/templates/main_templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/__init__.py">
+    <entry file="file://$PROJECT_DIR$/spider_instences/worms/steam/steam/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VI_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="false" />
+            <element signature="e#0#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/build/lib/steam/__init__.py">
+    <entry file="file://$PROJECT_DIR$/spider/spider/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/spider/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/schedulers/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/proxy/spiderctrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource_library/resource_spider/origin/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/build/lib/steam/items.py">
+    <entry file="file://$PROJECT_DIR$/spider/util/http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="690">
+          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/build/lib/steam/spiders/steampowered.py">
+    <entry file="file://$PROJECT_DIR$/spider/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/steam/spiders/steampowered.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapyd/logs/steam/steampowered/cd6332d24b5311e885458c85902808db.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-695">
-          <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worms/steam/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VI_test/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+        <state relative-caret-position="533">
+          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/proxy/contrib/scrapy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource_library/resource_spider/test/test_explorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/util/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource_library/resource_spider/origin/csdn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/scrapyd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/scrapyd/scrapyd_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/tmp_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/test_manage_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/scrapyd/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/templates/spider/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/templates/spider/project_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding />
         </state>
       </provider>

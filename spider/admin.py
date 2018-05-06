@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Spider, Tag, Type, Status
+from .tmp_models import Spider, Tag, Type, Status
 
 # Register your models here.
 
